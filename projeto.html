@@ -2,71 +2,20 @@
 <html lang="en">
 
 <head>
+    <script src="js/index.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
+
 <body style="background-color: blueviolet">
 
     <p>Antes do script...</p>
-    <script>
-        // alert('Hello, world!');
-        console.log('hello word');
-
-        const minhaurl = document.URL;
-        document.write(minhaurl)
-
-        switch (variavel = 'zod') {
-            case 1:
-                document.write('Opção 1');
-                break;
-            case 2:
-                document.write('Opção 2');
-                break;
-            default:
-                document.write('padrão');
-                break;
-        }
-
-        var var1 = 0;
-        document.write(typeof var1)
-        while (var1 <= 10) {
-            document.write('</br>linha' + var1);
-            var1++;
-        }
-
-        var myArray = ['um', 'dois', 'tres', 'quatro', 'cinco'];
-
-        myArray.forEach(function (value, key) {
-            if (key == 2 || key == 4) {
-
-                console.log(value);
-            }
-        })
-
-        console.log(myArray[2]);
-        const var2 = "teste";
-        const var3 = "boodaf"
-        function minhafunção(varx, vary) {
-            console.log(varx, vary)
-        }
-        minhafunção(var2, var3)
-
-
-        const tamanho = myArray.push('seis');
-        console.log(tamanho)
-    </script>
-
-
-
-
-
-    </script>
-    <p>Antes do script...</p>
 
     <h1>PESQUISA SOBRE LEAGUE OF LEGENDS</h1>
-    <mark style="background-color: darkorchid;">No lol eu jogo apenas aram pq é o unico modo que presta que existem
+    <mark>No lol eu jogo apenas aram pq é o unico modo que presta que existem
         alguns campeôes bons que eu quero indicar utilizando de algumas linguagens</mark></br>
     <P>Essa pesquisa visa entender qual dos 4 campeôes é o favorito dos jogadores</P></br>
     <p>shukarule shukarule</p>
@@ -78,14 +27,16 @@
     <img style height="300px" width="300px" src="twitch.jpg"
         alt="Esta é uma imagem do campeão Twitch do League of Legends">
 
-    <div style="    justify-items: center;">
+    <div>
         <form action="">Escolha um campeão de sua preferência
             <label for="lname">Nome do campeão</label></br>
-            <input type="text" name="name"></br>
+        <input id = "id_campeao"type="text" name="name" value =""></br>
             <label for="lemail">Email do usuario</label></br>
-            <input type="email" name="email"></br>
+            <input id = "id_email"type="email" name="email" value = ""></br>
             <input type="submit" value="enviar dados">
         </form>
+
+        
     </div>
 
 
